@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(0, 0, 106);
+    color: white;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+  }
+
+  nav a {
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .photo {
+    grid-column: 1;
+  }
