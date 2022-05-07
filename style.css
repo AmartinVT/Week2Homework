@@ -5,6 +5,7 @@ header {
     padding: 1%;
     background-color: rgb(0, 0, 106);
     color: white;
+    height: 25px;
   }
 
   nav ul {
@@ -20,8 +21,18 @@ header {
     font-weight: bold;
     text-decoration: none;
   }
-  
-  img {
-    max-width: 50%;
-    height: auto;
-  }
+
+.PhotoAndAboutMe{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PhotoAndAboutMe img {
+  width: 50%;
+  height: auto;
+}
+
+.PhotoAndAboutMe .AboutMeList {
+  border: 1px solid black;
+}
