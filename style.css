@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: rgb(0, 0, 106);
+    background-color: maroon;
     color: white;
     height: 25px;
   }
@@ -13,6 +13,8 @@ header {
     justify-content: space-between;
     min-width: 300px;
     list-style: none;
+    font-size: larger;
+    text-decoration: underline solid white;
   }
 
   nav a {
@@ -24,6 +26,9 @@ header {
 
 .PhotoAndAboutMe {
   display: flex;
+  border: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .PhotoAndAboutMe .Pic {
@@ -59,6 +64,8 @@ header {
   width: 100%;
   height: auto;
   border: 3px solid black;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .ImageLabel::before, .ImageLabel::after {
@@ -72,4 +79,48 @@ header {
   font-weight: bolder;
   background-color: maroon;
   color: white;
+}
+
+.SecondAppRow{
+  display: flex;
+}
+
+.SecondAppRowLeft img {
+  border: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.SecondAppRowRight img {
+  border: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.Footer h1 {
+  text-align: center;
+  border: 0 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding: 1%;
+  background-color: maroon;
+  color: white;
+  height: 25px;
+  text-decoration: underline solid white;
+}
+
+.Footer ul {
+  display: flex;
+  border: 0 0 0 0;
+  padding: 10px 10px 10px 10px;
+  margin: 0 0 0 0;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style: none;
+  background-color: lightgray;
+  font-size: larger;
 }
