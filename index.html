@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Webpage title displayed on browser tab -->
     <title>Martin Portfolio</title>
+    <!-- .CSS file sheet link -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+    <!-- Header controlling page title and links  -->
     <header>
         <h1>Portfolio of Work --- Adam Martin</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#">About Me</a>
+                    <!-- Link to the portfolio picture and about me list -->
+                    <a href="#PhotoAndAboutMe">About Me</a> 
                 </li>
                 <li>
-                    <a href="#">My Work</a>
+                    <!-- Link to application section starting at the featured app (larger picture) -->
+                    <a href="#MainApp">My Work</a>
                 </li>
                 <li>
-                    <a href="#">Get in Touch</a>
+                    <!-- Link to the footer for contact information -->
+                    <a href="#Footer">Get in Touch</a>
                 </li>
             </ul>
         </nav>
     </header>
 
 <body>
-    <div class="PhotoAndAboutMe">
+    <!-- PhotoAndAboutMe class controls portfilio photo and about me unordered list display -->
+    <div id="PhotoAndAboutMe" class="PhotoAndAboutMe">
         
+        <!-- Portfolio photo -->
         <div class="Pic">
             <img src="Assets/Profile Pic.png" alt="Throughly enjoy being bad at chess">
         </div>  
         
+        <!-- About me list items -->
         <div class="AboutMeList">
             <h1>About Me</h1>
             
@@ -57,11 +67,13 @@
         </div>
     </div>
 
-    <div class="MainApp">
+    <!-- MainApp controls the large featured app image and link to functioning application -->
+    <div id="MainApp" class="MainApp">
         <a href="https://amartinvt.github.io/MartinWeek1HomeworkRepo/"><img src="Assets/Horiseon Screenshot HW1.png" alt="Project #1"></a>
         <div class="ImageLabel">Featured App: Horiseon Website</div>
     </div>
 
+    <!-- SecondAppRow controls the left column and right column images below the main app [CURRENTLY A PLACEHOLDER] -->
     <div class="SecondAppRow">
     
         <div class="SecondAppRowLeft">
@@ -74,7 +86,9 @@
 
     </div>
 
-    <div class="Footer">
+    <!-- Controls the footer of the webpage containing contact information -->
+    <div id="Footer" class="Footer">
+        <!-- Footer header -->
         <h1>
             Get In Touch
         </h1>
